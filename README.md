@@ -5,13 +5,16 @@ A RFS program that demonstrates the use of TCP (Transmission Control Protocol) m
 - RM > Client requests to remove a file from the Server if filename is valid and file is found.
 - STOP > Terminates the RFS program.
 
-## Setup
-1. Set up 2 machines with a Linux OS environment (1. Client / 2. Server):
-  - Machines can be with a virtualization software such as VM VirtualBox on physical hardward or hosted on the cloud (Google, AWS, Azure, Oracle)
-
+### Prerequisites
+To be able to run the pipeline, make sure that the following prerequisites are installed:
+1. C compiler
+  - [Setting Up C Development Environment](https://www.geeksforgeeks.org/c/setting-up-c-development-environment/)
+2. Set up 2 machines both with a Linux OS environment (1. Client / 2. Server):
+  - Machines can be set up as a virtualization software such as VM VirtualBox on physical hardward or hosted on the cloud (Google, AWS, Azure, Oracle)
 
 ## Instructions
-1. Export files / folders.
+1. Clone the repository:  
+`git clone https://github.com/lkim016/CS5600-PracticumII.git`
 2. Access a first Linux environment (bash, wsl, etc.) for client.
 3. Access a second Linux environment (bash, wsl, etc.) for Server.
 3. Navigate / cd to exported files / folders with the Makefile.
