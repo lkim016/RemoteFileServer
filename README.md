@@ -6,7 +6,7 @@ An RFS program that demonstrates the use of TCP (Transmission Control Protocol) 
 - STOP > Terminates the RFS program.
 
 ### Prerequisites
-To be able to run the pipeline, make sure that the following prerequisites are installed:
+To be able to run the pipeline, make sure that the following prerequisites are set:
 1. C compiler
   - [Setting Up C Development Environment](https://www.geeksforgeeks.org/c/setting-up-c-development-environment/)
 2. Set up 2 machines both with a Linux OS environment (1. Client / 2. Server):
