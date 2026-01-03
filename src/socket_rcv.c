@@ -123,9 +123,11 @@ ssize_t rcv_file(int sock_fd, const char* sec_filepath, uint32_t size) {
     if file exists then move the file to be renamed with the datetime by microseconds and then receive new file
     */
     // TODO: Implement file renaming logic
+    /*
     if(rename(sec_filepath, ) != 0) {
         perror("Versioning Rename Failed\n");
     }
+    */
 
     // Locking the mutex to protect shared resources like socket descriptor and metadata
     pthread_mutex_lock(&rcv_mutex);
