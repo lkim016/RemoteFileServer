@@ -1,26 +1,26 @@
-# Practicum II
+# Practicum II - RFS (Remote File System)
+A RFS program that demonstrates the use of TCP (Transmission Control Protocol) message transer as a continuous stream of bytes between its Client and Server hosts using TCP sockets. THe program is defined by the commands:
+- WRITE > Client transfers a file to the Server as bytes.
+- GET > Client requests a file from the Server; if filename is valid and found then Server transfers to requesting Client.
+- RM > Client requests to remove a file from the Server if filename is valid and file is found.
+- STOP > Terminates the RFS program.
+
 ## Instructions
 1. Export files / folders.
 2. Access one Linux environment (bash, wsl, etc.) for client.
 3. Access a second Linux environment (bash, wsl, etc.) for terminal.
-3. Navigate / cd to exported files / folders with the Makeile.
+3. Navigate / cd to exported files / folders with the Makefile.
 4. Go to "src/config.h" to manually configure the required server IP Address, and/or other relevant configurations to set up the Client/Server under TCP (Transmission Control Protocol).
 5. Run commands below inside the directory of the Makefile per first terminal and second terminal for Client/Server to execute based on the desired make commands:
   - `make server` - will compile the server program which will set it up to be ready to listen for connections and handle the client connection and its requests per the allowed commands.
   - `make client` - will compile the server program to be a `./rfs` program which will set it up to be ready to send requests per the allowed commands to the server for the server to handle.
-  - To exit the program, press [CTRL+C].
+  <!-- - To exit the program, press [CTRL+C]. -->
 
 ### References
-[^1]  
-[^2]  
-[^3]  
-[^4]  
-[^5]  
-[^6]  
-[^7]  
-[^8]  
-[^9]  
-[^10]  
+[^1] [^2] [^3]  
+[^4] [^5] [^6]  
+[^7] [^8] [^9]  
+[^10]
 
 [^1]: "TCP/IP Protocol Design: Message Framing." codeproject, 20 Jun 2009. https://www.codeproject.com/articles/TCP-IP-Protocol-Design-Message-Framing#comments-section. Accessed: 2025-11-29.  
 [^2]: "fseek() in C." GeeksforGeeks, 02 Aug 2025. https://www.geeksforgeeks.org/cpp/fseek-in-c-with-example/. Accessed: 2025-11-29.  

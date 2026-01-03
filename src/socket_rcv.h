@@ -15,6 +15,7 @@
 #include <sys/socket.h>
 #include <unistd.h>
 #include <stddef.h>
+#include <sys/time.h>
 
 #include "config.h"
 #include "socket_md.h"
