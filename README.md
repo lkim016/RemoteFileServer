@@ -1,14 +1,19 @@
 # Practicum II - RFS (Remote File System)
-A RFS program that demonstrates the use of TCP (Transmission Control Protocol) message transer as a continuous stream of bytes between its Client and Server hosts using TCP sockets. THe program is defined by the commands:
+A RFS program that demonstrates the use of TCP (Transmission Control Protocol) message transer as a continuous stream of bytes between its Client and Server hosts using TCP sockets. The program is defined by the commands:
 - WRITE > Client transfers a file to the Server as bytes.
 - GET > Client requests a file from the Server; if filename is valid and found then Server transfers to requesting Client.
 - RM > Client requests to remove a file from the Server if filename is valid and file is found.
 - STOP > Terminates the RFS program.
 
+## Setup
+1. Set up 2 machines with a Linux OS environment (1. Client / 2. Server):
+  - Machines can be with a virtualization software such as VM VirtualBox on physical hardward or hosted on the cloud (Google, AWS, Azure, Oracle)
+
+
 ## Instructions
 1. Export files / folders.
-2. Access one Linux environment (bash, wsl, etc.) for client.
-3. Access a second Linux environment (bash, wsl, etc.) for terminal.
+2. Access a first Linux environment (bash, wsl, etc.) for client.
+3. Access a second Linux environment (bash, wsl, etc.) for Server.
 3. Navigate / cd to exported files / folders with the Makefile.
 4. Go to "src/config.h" to manually configure the required server IP Address, and/or other relevant configurations to set up the Client/Server under TCP (Transmission Control Protocol).
 5. Run commands below inside the directory of the Makefile per first terminal and second terminal for Client/Server to execute based on the desired make commands:
