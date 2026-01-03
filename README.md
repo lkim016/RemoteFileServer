@@ -17,10 +17,7 @@ A RFS program that demonstrates the use of TCP (Transmission Control Protocol) m
   <!-- - To exit the program, press [CTRL+C]. -->
 
 ### References
-[^1] [^2] [^3]  
-[^4] [^5] [^6]  
-[^7] [^8] [^9]  
-[^10]
+[^1] [^2] [^3] [^4] [^5] [^6] [^7] [^8] [^9] [^10]
 
 [^1]: "TCP/IP Protocol Design: Message Framing." codeproject, 20 Jun 2009. https://www.codeproject.com/articles/TCP-IP-Protocol-Design-Message-Framing#comments-section. Accessed: 2025-11-29.  
 [^2]: "fseek() in C." GeeksforGeeks, 02 Aug 2025. https://www.geeksforgeeks.org/cpp/fseek-in-c-with-example/. Accessed: 2025-11-29.  
