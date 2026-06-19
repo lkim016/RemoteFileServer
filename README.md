@@ -1,4 +1,4 @@
-# RFS (Remote File System)
+# RFS (Remote File Server)
 An RFS program that demonstrates the use of TCP (Transmission Control Protocol) message transer as a continuous stream of bytes between its Client and Server hosts using TCP sockets. The program is defined by the commands:
 - WRITE > Client transfers a file to the Server as bytes.
 - GET > Client requests a file from the Server; if filename is valid and found then Server transfers to requesting Client.
